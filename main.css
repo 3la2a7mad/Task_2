@@ -1,3 +1,8 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -6,6 +11,7 @@
     background: linear-gradient(#121212, #6e2148); 
     height: 60px;
     position: fixed;
+    width:100% ;
 }
 .logo img {
     height: 40px; 
