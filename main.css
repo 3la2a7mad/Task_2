@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px;
+    background: linear-gradient(#121212, #6e2148); 
+    height: 60px;
+    position: fixed;
+}
+.logo img {
+    height: 40px; 
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+.nav-links li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 4px;
+   
+}
+
